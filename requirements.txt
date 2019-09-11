@@ -1,3 +1,4 @@
 sphinx
 nbsphinx
 recommonmark
+https://github.com/mli/notedown/tarball/master

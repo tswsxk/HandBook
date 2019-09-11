@@ -1,12 +1,13 @@
 
 Dependency
-
 ```
 sphinx
 nbsphinx
 sphinx_rtd_theme
 recommonmark
+m2r
 ```
+Using `pip install` to install the dependencies.
 
 
 To install the sphinx mx-theme

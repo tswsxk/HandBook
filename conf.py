@@ -16,8 +16,8 @@
 # import os
 
 # sys.path.insert(0, os.path.abspath('../'))
-# from recommonmark.parser import CommonMarkParser
-# from recommonmark.transform import AutoStructify
+from recommonmark.parser import CommonMarkParser
+from recommonmark.transform import AutoStructify
 
 # Use footnote size for code block.
 from sphinx.highlighting import PygmentsBridge
@@ -34,7 +34,7 @@ PygmentsBridge.latex_formatter = CustomLatexFormatter
 
 # -- Project information -----------------------------------------------------
 
-project = 'Handbook for Data Science and Artifitial Intellegenge'
+project = 'Handbook for Data Science and Artificial Intelligence'
 copyright = '2019, tongshiwei'
 author = 'tongshiwei'
 
@@ -63,11 +63,12 @@ extensions = [
     'nbsphinx',
     # 'IPython.sphinxext.ipython_console_highlighting',
     # 'IPython.sphinxext.ipython_directive',
-    'm2r'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
+
+source_parsers = {'.md': CommonMarkParser}
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -189,3 +190,12 @@ texinfo_documents = [
      author, 'longling', 'One line description of project.',
      'Miscellaneous'),
 ]
+
+
+def setup(app):
+    app.add_transform(AutoStructify)
+    app.add_config_value('recommonmark_config', {
+    }, True)
+    app.add_javascript('google_analytics.js')
+    app.add_javascript('discuss.js')
+    # app.connect('source-read', image_caption)

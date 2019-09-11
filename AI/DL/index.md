@@ -14,7 +14,6 @@
     :maxdepth: 2
 
     RNN.md
-    Structure.md
 ```
 
 ### 结构分析
@@ -23,6 +22,7 @@
 .. toctree::
     :maxdepth: 2
     
+    Convolution.md
     CNN.md
     GNN.md
 ```

@@ -1,6 +1,4 @@
-[TOC]
-
-# Overview
+# Web开发
 
 This Tutorial aims to explain how to quickly construct a web application which contains front end and back end. To be noticed, we will develop all components in the framework of `yarn + webpack`. That is all `*.css` and `*.js` will be packaged into one `index.html` and its assets.
 

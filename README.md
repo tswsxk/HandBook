@@ -3,8 +3,7 @@ Using `pip install` to install the [dependencies](requirements.txt).
 pip install requirements.txt
 ```
 
-
-To install the sphinx mx-theme
+To install the sphinx mx-theme (which is exactly the same with [d2l](http://zh.gluon.ai/))
 ```bash
 pip install https://github.com/mli/notedown/tarball/master
 cd handbook/
@@ -21,3 +20,5 @@ Generate the handbook html
 ```bash
 make html
 ```
+
+Refer to [Autodoc](Architecture/Autodoc.md) for the information how I generate and publish the blog.

@@ -1,13 +1,7 @@
-
-Dependency
+Using `pip install` to install the [dependencies](requirements.txt).
+```bash
+pip install requirements.txt
 ```
-sphinx
-nbsphinx
-sphinx_rtd_theme
-recommonmark
-m2r
-```
-Using `pip install` to install the dependencies.
 
 
 To install the sphinx mx-theme

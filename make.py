@@ -15,7 +15,7 @@ rst_exclude = [
 ]
 
 md_include = [
-    # "AI/overview.md",
+    "Math/Probability.md",
 ]
 
 logging.getLogger().setLevel(logging.INFO)

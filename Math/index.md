@@ -5,7 +5,7 @@
     :maxdepth: 2
     
     LinearAlgebra.md
-    Probability.md
+    Probability
     InfomationTheory.md
 ```
 

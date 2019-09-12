@@ -179,7 +179,7 @@ html_theme_options = {
         # ('讨论', 'https://discuss.gluon.ai/c/lecture?order=views', True, 'fab fa-discourse'),
         ('GitHub', 'https://github.com/tswsxk', True, 'fab fa-github'),
         ('CodeBook', 'https://github.com/tswsxk/CodeBook', True, 'fas fa-book'),
-        ('HomePage', 'https://tswsxk.github.io', False, 'fas fa-home'),
+        ('HomePage', 'https://tswsxk.github.io', True, 'fas fa-home'),
     ],
     'show_footer': True
 }

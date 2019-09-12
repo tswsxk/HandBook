@@ -115,11 +115,3 @@ venv.bak/
 .DS_Store
 
 # User Definition
-temp/
-data/
-model/
-graph/plot/
-**/data
-**/model
-**/temp
-test.py

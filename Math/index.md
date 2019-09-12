@@ -4,8 +4,8 @@
 .. toctree::
     :maxdepth: 2
     
-    LinearAlgebra.rst
-    Probability
+    LinearAlgebra.md
+    Probability.md
     InformationTheory.md
 ```
 

@@ -13,6 +13,7 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 # import sys
+import json
 import os
 from pathlib import Path
 import logging
@@ -36,17 +37,13 @@ PygmentsBridge.latex_formatter = CustomLatexFormatter
 
 # ##################### pre process ###########################
 
-rst_exclude = [
-
-]
-
-md_include = [
-    "Math/Probability.md",
-    "Math/LinearAlgebra.md",
-    "Math/InformationTheory.md"
-]
 
 root = os.path.abspath(os.path.dirname(__file__))
+
+with open(os.path.join(root, ".math.json")) as f:
+    meta_data = json.load(f)
+    rst_exclude = meta_data["rst_exclude"]
+    md_include = meta_data["md_include"]
 
 clean_dir = set(os.listdir(root)) - {'.git', '.gitignore', '_build', '_static', 'mx-theme'}
 

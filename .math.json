@@ -1,0 +1,9 @@
+{
+  "rst_exclude": [],
+  "md_include": [
+    "Math/Probability.md",
+    "Math/LinearAlgebra.md",
+    "Math/InformationTheory.md",
+    "Math/Calculus.md"
+  ]
+}

@@ -35,11 +35,6 @@ class CustomLatexFormatter(LatexFormatter):
 PygmentsBridge.latex_formatter = CustomLatexFormatter
 
 # ##################### pre process ###########################
-root = os.path.abspath(os.path.dirname(__file__))
-
-clean_dir = set(os.listdir(root)) - {'.git', '.gitignore', '_build', '_static', 'mx-theme'}
-
-clean_dir = [os.path.join(root, d) for d in clean_dir]
 
 rst_exclude = [
 
@@ -50,6 +45,12 @@ md_include = [
     "Math/LinearAlgebra.md",
     "Math/InformationTheory.md"
 ]
+
+root = os.path.abspath(os.path.dirname(__file__))
+
+clean_dir = set(os.listdir(root)) - {'.git', '.gitignore', '_build', '_static', 'mx-theme'}
+
+clean_dir = [os.path.join(root, d) for d in clean_dir]
 
 logging.getLogger().setLevel(logging.INFO)
 

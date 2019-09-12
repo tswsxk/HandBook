@@ -1,3 +1,6 @@
+# How to make the HB4DSAI
+
+## Quick start
 Using `pip install` to install the [dependencies](requirements.txt).
 ```bash
 pip install requirements.txt
@@ -22,3 +25,10 @@ make html
 ```
 
 Refer to [Autodoc](Architecture/Autodoc.md) for the information how I generate and publish the blog.
+
+## Notice
+
+The math support is not well in sphinx for markdown, so I use `pandoc` to transform `.md` file to `.rst`, the details can also be found in [Autodoc](Architecture/Autodoc.md).
+
+To enable the math convention, all `.md` should be specified in the variable `md_include` in `conf.py`.
+  

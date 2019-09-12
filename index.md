@@ -5,6 +5,7 @@
     :maxdepth: 1
     
     Overview/overview.rst
+    Overview/math
 
 .. toctree::
     :maxdepth: 5

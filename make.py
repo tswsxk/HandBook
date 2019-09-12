@@ -15,7 +15,8 @@ rst_exclude = [
 ]
 
 md_include = [
-    "Overview/overview.md"
+    "Overview/overview.md",
+    "Overview/math.md"
 ]
 
 logging.getLogger().setLevel(logging.INFO)

@@ -4,7 +4,7 @@
 .. toctree::
     :maxdepth: 1
     
-    Overview/overview.md
+    Overview/overview
 
 .. toctree::
     :maxdepth: 5

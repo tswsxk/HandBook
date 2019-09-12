@@ -68,7 +68,6 @@ def clean_rst():
 def generate_rst():
     logging.info("converting .md with math expression to .rst")
     _md_include = set([str(Path(os.path.join(root, fn))) for fn in md_include])
-    print(_md_include)
     for _clean_dir in clean_dir:
         for _root, dirs, files in os.walk(_clean_dir):
             for fn in files:

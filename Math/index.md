@@ -6,7 +6,7 @@
     
     LinearAlgebra.rst
     Probability
-    InfomationTheory.md
+    InformationTheory.md
 ```
 
 

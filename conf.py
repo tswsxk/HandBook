@@ -34,7 +34,6 @@ class CustomLatexFormatter(LatexFormatter):
 
 PygmentsBridge.latex_formatter = CustomLatexFormatter
 
-
 # ##################### pre process ###########################
 root = os.path.abspath(os.path.dirname(__file__))
 
@@ -48,6 +47,8 @@ rst_exclude = [
 
 md_include = [
     "Math/Probability.md",
+    "Math/LinearAlgebra.md",
+    "Math/InformationTheory.md"
 ]
 
 logging.getLogger().setLevel(logging.INFO)

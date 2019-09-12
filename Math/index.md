@@ -5,6 +5,7 @@
     :maxdepth: 2
     
     LinearAlgebra.md
+    Calculus.md
     Probability.md
     InformationTheory.md
 ```

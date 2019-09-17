@@ -117,7 +117,7 @@ TBA
 
 ### 正态分布 Normal
 
-假设随机变量 $X$ 服从位置参数（均值）为 $\mu$,  尺度参数为 $\sigma$（方差为$$） 的正态分布, 即 $X \sim N(\mu,\sigma^2)$，则其概率密度函数为：
+假设随机变量 $X$ 服从位置参数（均值）为 $\mu$,  尺度参数为 $\sigma$（方差为$\sigma^2$） 的正态分布, 即 $X \sim N(\mu,\sigma^2)$，则其概率密度函数为：
 $$
 f(x)=\frac{1}{\sqrt{2\pi\sigma^2}}exp(-\frac{(x-\mu)^2}{2\sigma^2})
 $$

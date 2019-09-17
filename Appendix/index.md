@@ -2,7 +2,8 @@
 ```eval_rst
 .. toctree::
     :maxdepth: 2
-
+    
+    symbol.md
     ../Math/index.md
     ../Program/index.md
     ../Algorithm/index.md

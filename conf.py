@@ -176,7 +176,7 @@ html_theme_options = {
         ('GitHub', 'https://github.com/tswsxk', True, 'fab fa-github'),
         ('CodeBook', 'https://github.com/tswsxk/CodeBook/tree/master/Handbook4DSAI', True, 'fas fa-book'),
         ('HomePage', 'https://tswsxk.github.io', True, 'fas fa-home'),
-        ('Search', 'http://scholar.hedasudi.com/', True, 'fab fa-search'),
+        ('Search', 'http://scholar.hedasudi.com/', True, 'fab fa-searchengin'),
     ],
     'show_footer': True
 }

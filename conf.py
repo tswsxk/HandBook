@@ -173,6 +173,7 @@ html_theme_options = {
         # ('伯克利深度学习课程', 'https://courses.d2l.ai/berkeley-stat-157/index.html', True, 'fas fa-user-graduate'),
         # ('PDF', 'https://zh.d2l.ai/d2l-zh.pdf', True, 'fas fa-file-pdf'),
         # ('Jupyter 记事本文件', 'https://zh.d2l.ai/d2l-zh.zip', True, 'fas fa-download'),
+        ('Q&A', 'https://github.com/tswsxk/HandBook/issues', True, 'fas fa-question-circle'),
         ('GitHub', 'https://github.com/tswsxk', True, 'fab fa-github'),
         ('CodeBook', 'https://github.com/tswsxk/CodeBook/tree/master/Handbook4DSAI', True, 'fas fa-book'),
         ('HomePage', 'https://tswsxk.github.io', True, 'fas fa-home'),

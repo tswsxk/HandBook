@@ -7,6 +7,17 @@
 
 ## GCN
 
+### 原理
+
+#### 谱聚类
+
+##### 参考资料
+1. [谱聚类（spectral clustering）原理总结](https://www.cnblogs.com/pinard/p/6221564.html)
+
+### 传播实现 —— GraphSAGE
+#### 参考资料
+1. [GraphSAGE: GCN落地必读论文 - 风浪的文章 - 知乎](https://zhuanlan.zhihu.com/p/62750137)
+
 ### Code
 [[numpy]](https://mp.weixin.qq.com/s/sg9O761F0KHAmCPOfMW_kQ)
 
@@ -16,13 +27,13 @@
 ### 参考资料
 1. [如何理解 Graph Convolutional Network（GCN）？ - superbrother的回答 - 知乎](https://www.zhihu.com/question/54504471/answer/332657604)
 2. [如何理解 Graph Convolutional Network（GCN）？ - Johnny Richards的回答 - 知乎](https://www.zhihu.com/question/54504471/answer/630639025)
+
 ### FAQ
 #### GCN能否用于有向图？
-[可以](https://arxiv.org/abs/1703.06103)
+直接应用是不行的，但可以通过[正则化](https://github.com/tkipf/gcn/issues/91#issuecomment-469181790)来解决
 
 其它针对有向图的GCN变种:
 * [Monti F, Otness K, Bronstein M M. Motifnet: a motif-based graph convolutional network for directed graphs[C]//2018 IEEE Data Science Workshop (DSW). IEEE, 2018: 225-228.](https://arxiv.org/pdf/1802.01572.pdf)
-* [Schlichtkrull M, Kipf T N, Bloem P, et al. Modeling relational data with graph convolutional networks[C]//European Semantic Web Conference. Springer, Cham, 2018: 593-607.](https://arxiv.org/pdf/1703.06103.pdf)
 
 ## GAT
 ### 阅读列表

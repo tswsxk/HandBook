@@ -225,3 +225,14 @@ AllowUsers XXX1 XXX2 XXX3
 ```bash
 sudo systemctl reload sshd.service
 ```
+
+## 内核切换
+首先查看可用内核
+```bash
+awk -F\' '$1=="menuentry " {print i++ " : " $2}' /etc/grub2.cfg
+```
+切换内核
+```bash
+grub2-set-default x
+```
+`x` 为用`awk`查看得到的内核编号

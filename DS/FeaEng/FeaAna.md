@@ -2,6 +2,9 @@
 
 ## 可视化分析
 
+### 参考资料
+[从1维到6维，一文读懂多维数据可视化策略](https://mp.weixin.qq.com/s/mD732PqDtqYdFZSxZWtvvg)
+
 ## 统计分析
 
 ### 分布分析

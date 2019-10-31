@@ -10,5 +10,6 @@
     ../System/index.md
     ../Architecture/index.md
     ../Dev/index.md
+    visualization.md
 ```
 

@@ -12,3 +12,5 @@
 
 [Python 的 Ellipsis 对象](https://farer.org/2017/11/29/python-ellipsis-object/)
 
+## 参考资料
+[震惊了！每30秒学会一个Python小技巧，Github星数4600+](https://mp.weixin.qq.com/s/ZGNJ2fEb_sFCSE2sZbrDhA)

@@ -60,3 +60,10 @@ $$
 1. 数据科学导论，刘淇，中国科学技术大学
 2. 动手学深度学习，Aston Zhang and Zachary C. Lipton and Mu Li and Alexander J. Smola
 3. 大数据技术及应用，陈恩红，中国科学技术大学
+
+## 延伸阅读
+[必知！4张图看尽AI发展史重大里程碑](https://mp.weixin.qq.com/s/43KjJ38XtfYJ7j-eziDUBA)
+
+[从起源到未来：能自己编程和改进的超人工智能会出现吗？](https://mp.weixin.qq.com/s/_76Xv5GX4v3ZCMmOA0qHxg)
+
+[理解计算:从根号2到AlphaGo第8季 深度学习发展简史](https://mp.weixin.qq.com/s/mDRo3v9UPhmFZcdSSGoacQ)

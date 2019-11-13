@@ -9,6 +9,17 @@
 pandoc xxx.md -t rst > xxx.rst
 ```
 
+## restructedtext
+
+python code block
+```rst
+
+.. code-block:: python
+    
+    code here
+
+```
+
 ## Read The Docs
 
 [创建、托管和浏览文档](https://readthedocs.org/)

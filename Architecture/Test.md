@@ -24,5 +24,8 @@ markers =
     pep8: pep8
 ```
 
+* 如何忽略特定的docstring test
+`PYTEST_DONT_REWRITE`
+
 ### 参考资料
 1. [Pytest 使用手册](https://learning-pytest.readthedocs.io/zh/latest/index.html)

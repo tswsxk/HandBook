@@ -21,6 +21,7 @@ pip install -e .
 安装 extra_requires
 ```shell
 pip install -e .[test,dev,...]
+pip install Somapackage[test,dev,...]
 ```
 
 ## 包的发布
@@ -36,6 +37,9 @@ entry_points={
     ],
 },
 ```
+
+### 参考资料
+[官方文档](https://packaging.python.org/tutorials/installing-packages/)
 
 ## 参考资料
 [震惊了！每30秒学会一个Python小技巧，Github星数4600+](https://mp.weixin.qq.com/s/ZGNJ2fEb_sFCSE2sZbrDhA)

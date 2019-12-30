@@ -3,14 +3,34 @@
 强化学习就是学习“做什么（即如何把当前的情境映射成动作）”才能使数值化的收益信号最大化。
 
 * 【试错】学习者不会被告知应该采取什么动作，而是必须自己通过尝试去发现那些动作会产生最丰厚的累积收益。
-
 * 【延迟收益】动作往往影响的不仅仅是即时收益，也会影响下一个情境，从而影响随后的收益。
+
+收益 —— reward，回报 —— return，gain
+
+幕 episode
 
 
 ## 一些关键性的概念
 
+### 折扣加权平均
+
+$$
+(1-a)^n+\sum_{i=1}^{n}\alpha(1-a)^{n-i}=1
+$$
+
+权值和是 1
+
 ### bootstrap (自举)
 用后继各个状态的价值估计值来更新当前某个状态的价值估计值。
+
+### 最大化偏差
+
+原因：将估计值中的最大值视为对真实价值的最大值的估计
+
+解决方法：double-Q，一个Q用来确定最大动作，一个Q用来计算其价值估计
+$$
+Q_1(S,A) \leftarrow Q_1(S,A) + \alpha(R + \gamma Q_2(S',argmax_{a}Q_1(S',a))-Q_1(S,A))
+$$
 
 ### 对比
 
@@ -25,9 +45,19 @@ DP 利用了 bootstrap (自举) 法来进行**期望更新**。MC 和 TD 都是*
 
 ## 探索利用窘境
 
-* $epsilon$-greedy
+* $\epsilon$-greedy
 * UCB: quantize the uncertainty and treat as a part of the value estimation.
+
+$$
+A_t = \mathop{argmax} \limits_{a} [Q_t(a)+c\sqrt{\frac{ln~t}{N_t(a)}}]
+$$
+
 * softmax
+
+$\epsilon$-greedy 进行非贪心决策的时候是盲目的选择，但更好的是根据潜力（即可能的收益）来进行选择。潜力的评估指标有：
+
+* 估计的最大值 $\rightarrow$ 会导致最大化偏差
+* 不确定性
 
 ### off-policy:
 

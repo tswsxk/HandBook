@@ -13,7 +13,7 @@
     DS/index.md
     AI/ML/index.md
     AI/DL/index.md
-    topic/index.md
+    AI/topic/index.md
 
 .. toctree::
     :maxdepth: 2

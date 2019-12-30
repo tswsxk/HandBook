@@ -4,6 +4,6 @@
 
 ## Git
 增加新的 remote 分支
-```shell script
+```shell
 git remote set-url --add --push origin https://github.com/tswsxk/longling.git
 ```

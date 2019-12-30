@@ -1,6 +1,5 @@
-Sphinx==1.7.9
+sphinx==1.7.9
 sphinxcontrib-websupport==1.1.2
 pygments
-nbsphinx
-recommonmark
+recommonmark==0.4.0
 https://github.com/mli/notedown/tarball/master

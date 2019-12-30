@@ -117,7 +117,7 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx.ext.mathjax',
     # 'sphinx_gallery.gen_gallery',
-    'nbsphinx',
+    # 'nbsphinx',
     # 'IPython.sphinxext.ipython_console_highlighting',
     # 'IPython.sphinxext.ipython_directive',
     # 'm2r',

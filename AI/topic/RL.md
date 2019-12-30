@@ -28,6 +28,7 @@ $$
 原因：将估计值中的最大值视为对真实价值的最大值的估计
 
 解决方法：double-Q，一个Q用来确定最大动作，一个Q用来计算其价值估计
+
 $$
 Q_1(S,A) \leftarrow Q_1(S,A) + \alpha(R + \gamma Q_2(S',argmax_{a}Q_1(S',a))-Q_1(S,A))
 $$

@@ -69,9 +69,11 @@ $\epsilon$-greedy 进行非贪心决策的时候是盲目的选择，但更好�
 
 
 ## 参考资料
-1. [深度增强学习（DRL）漫谈 - 从DQN到AlphaGo](https://blog.csdn.net/jinzhuojun/article/details/52752561)
-2. [A (Long) Peek into Reinforcement Learning](https://lilianweng.github.io/lil-log/2018/02/19/a-long-peek-into-reinforcement-learning.html)
-3. [强化学习怎么入门好？ - 花潇的回答 - 知乎](https://www.zhihu.com/question/277325426/answer/780369865)
+[1] [深度增强学习（DRL）漫谈 - 从DQN到AlphaGo](https://blog.csdn.net/jinzhuojun/article/details/52752561)
+
+[2] [A (Long) Peek into Reinforcement Learning](https://lilianweng.github.io/lil-log/2018/02/19/a-long-peek-into-reinforcement-learning.html)
+
+[3] [强化学习怎么入门好？ - 花潇的回答 - 知乎](https://www.zhihu.com/question/277325426/answer/780369865)
 
 ## 环境
 ### Gym

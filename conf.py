@@ -152,6 +152,9 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'mx-theme', 'README.md']
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
 
+# notebooks will be executed by sphnix_plugin
+# nbsphinx_execute = 'never'
+
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for

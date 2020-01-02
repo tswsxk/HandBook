@@ -8,6 +8,15 @@
 
 ## 常用语法糖
 
+## FAQ
+
+* 明明格式没有问题，但是`json`读取的时候却出错
+```text
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+```
+
+可能的原因是数据传输过程中出错，可以重新下载一下数据
+
 ### Ellipsis
 
 [Python 的 Ellipsis 对象](https://farer.org/2017/11/29/python-ellipsis-object/)

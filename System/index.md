@@ -3,6 +3,7 @@
 .. toctree::
     :maxdepth: 1
 	
+    basic.md
 	Hardware.md
     Server.md
 ```

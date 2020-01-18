@@ -1,5 +1,7 @@
 # linux 基本指令
 
+## 显示操作系统版本
+
 ## 压缩解压缩
 1. gz
 ```shell
@@ -7,6 +9,13 @@
 gzip $src
 # 解压缩
 gzip -d $file.gz
+```
+2. tar
+```shell
+# tar.gz 压缩
+tar zcvf $tar $src
+# tar.gz 解压缩
+tar zxvf $src
 ```
 ## 显示文本特定行内容
 ```shell

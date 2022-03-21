@@ -86,7 +86,7 @@ markers
 
 #### docstring过长
 
-可使用elipsis： `...`来省略部分内容（需声明`doctest: +ELLIPSIS`）
+可使用elipsis： `...`来省略部分内容（需声明`# doctest: +ELLIPSIS`）
 
 [实例1](https://github.com/bigdata-ustc/EduNLP/blob/master/EduNLP/SIF/segment/segment.py#L354)
 

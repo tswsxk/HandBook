@@ -6,7 +6,7 @@ pytest 有两个比较重要的配置文件：
 * pytest.ini
 * setup.cfg
 
-### Reference
+### 关键特性
 
 #### [组参数测试](https://docs.pytest.org/en/latest/parametrize.html#pytest-mark-parametrize-parametrizing-test-functions)
 
@@ -72,8 +72,31 @@ markers
 ```
 
 * 如何忽略特定的docstring test
-  `PYTEST_DONT_REWRITE`
+  * `PYTEST_DONT_REWRITE`
 * 模拟
+* flake8出现`E AttributeError: '_io.StringIO' object has no attribute 'buffer'`
+  * [关联issue](https://github.com/bigdata-ustc/EduKTM/issues/23)
+  * 解决方案：downgraded flake8 4.0.1 to 3.9.2 in setup.py
+
+## Doctest
+
+完整的flag可以参考官方文档
+
+### 常见case
+
+#### docstring过长
+
+可使用elipsis： `...`来省略部分内容（需声明`doctest: +ELLIPSIS`）
+
+[实例1](https://github.com/bigdata-ustc/EduNLP/blob/master/EduNLP/SIF/segment/segment.py#L354)
+
+[实例2](https://github.com/bigdata-ustc/EduNLP/blob/master/EduNLP/SIF/sif.py#L88)
+
+#### 无视空格、制表符差异（忽略对齐）
+
+`# doctest: +NORMALIZE_WHITESPACE`
+
+[实例](https://github.com/tswsxk/longling/blob/master/longling/ML/metrics/classification.py#L92)
 
 ### 参考资料
 
